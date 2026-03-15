@@ -1,0 +1,3 @@
+[submodule "vendor/NO-Core"]
+	path = vendor/NO-Core
+	url = git@github.com:NextOren/NO-Core.git
