@@ -2,13 +2,12 @@
 
 class IApplication {
 public:
-    inline IApplication();
-    inline virtual ~IApplication();
-    inline virtual void Initialize();
-    inline virtual void Update(float delta_time);
-    inline virtual void Render(float aspect_ratio);
-    inline virtual void Shutdown();
+    virtual ~IApplication() = default;
+    virtual void Initialize() = 0;
+    virtual void Update(float delta_time) = 0;
+    virtual void Render(float aspect_ratio) = 0;
+    virtual void Shutdown() = 0;
 private:
-    IApplication(const IApplication&);
-    IApplication& operator=(const IApplication&);
+    IApplication(const IApplication&) = delete;
+    IApplication& operator=(const IApplication&) = delete;
 };
