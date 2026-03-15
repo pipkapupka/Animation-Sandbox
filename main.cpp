@@ -1,3 +1,8 @@
-//
-// Created by pipkapupka275 on 3/15/26.
-//
+#include "SandboxApp.h"
+
+int main() {
+    SandboxApp app;
+    app.Initialize();
+    app.Run();
+    return 0;
+}
