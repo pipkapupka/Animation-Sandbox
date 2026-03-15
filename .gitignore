@@ -1,0 +1,57 @@
+# Builds
+build/
+cmake-build-debug/
+cmake-build-release/
+out/
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+*.appв
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeUserPresets.json
+CTestTestfile.cmake
+_deps/
+
+# CLion specificity
+.idea/
+*.iws
+*.iml
+*.ipr
+.cache/
+
+# bin and executables
+bin/
+lib/
+x64/
+x86/
+Debug/
+Release/
+MinSizeRel/
+RelWithDebInfo/
+
+# logs and temps
+*.log
+*.tmp
+*.temp
+
+# IDE project files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.sdf
+
+# User settings
+.vs/
